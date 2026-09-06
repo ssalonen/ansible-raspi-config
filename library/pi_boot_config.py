@@ -6,7 +6,7 @@ from ansible.module_utils.basic import *
 
 
 # START - common module code - yay for copy-paste
-BOOT_CONFIG_PATH = "/boot/config.txt"
+BOOT_CONFIG_PATH = "/boot/firmware/config.txt"
 
 RASPI_CONFIG_BIN = "/usr/bin/raspi-config"
 
